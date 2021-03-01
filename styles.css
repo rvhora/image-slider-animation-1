@@ -20,7 +20,7 @@ img{
     left:50%;
     top:50%;
     transform: translate(-50%,-50%);
-    animation: zoom-out 3s linear infinite;
+    animation: zoom-out 5s linear infinite;
 }
 @keyframes zoom-out{
     100%{
@@ -33,7 +33,7 @@ img{
     top:40%;
     left:100px;
     color:#66FCF1;
-    animation: textup 21s linear infinite;
+    animation: textup 35s linear infinite;
     transform: translateY(100px);
     
     
@@ -71,31 +71,31 @@ img{
 */
 
 .banner1{
-    animation: slide1 21s linear infinite;
+    animation: slide1 35s linear infinite;
 }
 
 .banner2{
-    animation: slide2 21s linear infinite;
+    animation: slide2 35s linear infinite;
 }
 
 .banner3{
-    animation: slide3 21s linear infinite;
+    animation: slide3 35s linear infinite;
 }
 
 .banner4{
-    animation: slide4 21s linear infinite;
+    animation: slide4 35s linear infinite;
 }
 
 .banner5{
-    animation: slide5 21s linear infinite;
+    animation: slide5 35s linear infinite;
 }
 
 .banner6{
-    animation: slide6 21s linear infinite;
+    animation: slide6 35s linear infinite;
 }
 
 .banner7{
-    animation: slide7 21s linear infinite;
+    animation: slide7 35s linear infinite;
 }
 
 /*
@@ -286,27 +286,27 @@ divide 100/total image 100/5 = 20, keyframe for each 20%
    
 }
 .text-box2{
-    animation-delay: 3s;
+    animation-delay: 5s;
     background-color: rgba(0, 0, 0, 0.4);
 }
 .text-box3{
-    animation-delay: 6s;
+    animation-delay: 10s;
     background-color: rgba(0, 0, 0, 0.4);
 }
 .text-box4{
-    animation-delay: 9s;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-.text-box5{
-    animation-delay: 12s;
-    background-color: rgba(0, 0, 0, 0.4);
-}
-.text-box6{
     animation-delay: 15s;
     background-color: rgba(0, 0, 0, 0.4);
 }
+.text-box5{
+    animation-delay: 20s;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.text-box6{
+    animation-delay: 25s;
+    background-color: rgba(0, 0, 0, 0.4);
+}
 .text-box7{
-    animation-delay: 18s;
+    animation-delay: 30s;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
